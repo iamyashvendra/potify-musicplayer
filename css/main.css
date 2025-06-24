@@ -136,6 +136,10 @@ body {
   align-items: center;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
+  body{
+    margin-top: 100px;
+  }
+
   .player-controls {
     flex-direction: row;
     padding-left: 0;
